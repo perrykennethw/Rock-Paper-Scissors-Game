@@ -1,0 +1,67 @@
+body {
+	background-color:crimson;
+	font-family: 'Audiowide', cursive;
+}
+
+header {
+	text-align:center;
+	}
+
+#wrap {
+	background-color:oldlace;
+	width:800px;
+	margin:0 auto;
+	}
+	
+.left {
+	background-color:cornflowerblue;
+	width:350px;
+	height:350px;
+	float:left;
+	margin:20px;
+	}
+	
+.right {
+	background-color:cornflowerblue;
+	width:350px;
+	height:350px;
+	float:right;
+	margin:20px;
+	}
+	
+.results {
+	background-color:chartreuse;
+	clear:both;
+	height:100px;
+	font-size:18px;
+	text-align:center;
+	}
+	
+#playerImage, #computerImage {
+		width:200px;
+		height:200px;
+		border:2px solid white;
+		}
+		
+.title {
+	font-size:20px;
+	color:oldlace;
+	font-weight:bold;
+	}
+	
+.choices {
+	text-align:center;
+	color:oldlace;
+	font-size:18px;
+	font-weight:bold;
+	}
+	
+a:link, a:visited {
+	color:oldlace;
+	text-decoration:none;
+}
+	
+a:hover, a:active {
+	color:crimson;
+	text-decoration:none;
+}
